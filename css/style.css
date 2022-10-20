@@ -14,14 +14,6 @@ body {
   color: #fff;
 }
 
-a {
-  text-decoration: none;
-  color: #fff;
-}
-
-ul {
-  list-style: none;
-}
 
 /* Header/Navbar */
 .main-header {
@@ -114,12 +106,12 @@ section {
   font-weight: 700;
   margin-bottom: 20px;
   animation: fadeInUp 0.5s ease-in-out 0.2s;
-  animation-fill-mode: both; // Stop from showing at start
+  animation-fill-mode: both; 
 }
 
 .section-inner a {
   animation: fadeInUp 0.5s ease-in-out 0.4s;
-  animation-fill-mode: both; // Stop from showing at start
+  animation-fill-mode: both; 
 }
 /* Galeria inicio /  principal */
 html,
@@ -186,7 +178,7 @@ html,
 
         .section-inner a {
           animation: fadeInUp 0.5s ease-in-out 0.4s;
-          animation-fill-mode: both; // Stop from showing at start
+          animation-fill-mode: both; 
         }
     
         @media (min-width: 1200px) {
